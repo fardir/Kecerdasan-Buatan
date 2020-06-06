@@ -177,6 +177,7 @@ public class Puzzle {
         // 0 MERUPAKAN TANDA TIDAK ADA ANGKA DI TILE TERSEBUT
         int[][] init = {{2, 4, 3}, {1, 5, 6}, {7, 0, 8}};
         int[][] goal = {{1, 2, 3}, {4, 5, 6}, {7, 8, 0}};
+        
         Node Initial = new Node(init);
         Node Goal = new Node(goal);
         Search find = new Search();
